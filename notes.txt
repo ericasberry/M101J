@@ -1,0 +1,2 @@
+mvn archetype:generate  (defaults)
+mvn compile exec:java -Dexec.mainClass="com.tengen.HelloWorldMongoDBStyle"
