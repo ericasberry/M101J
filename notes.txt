@@ -1,2 +1,13 @@
 mvn archetype:generate  (defaults)
 mvn compile exec:java -Dexec.mainClass="com.tengen.HelloWorldMongoDBStyle"
+mongoimport -d students -c grades < grades.json
+connected to: 127.0.0.1
+Mon Mar 11 20:12:22 imported 800 objects
+[20:12:23 GIT: hw2.1; master clean] $ mongodb
+-bash: mongodb: command not found
+[20:12:28 GIT: hw2.1; master clean] $ mongo
+MongoDB shell version: 2.2.3
+connecting to: test
+> use students
+switched to db students
+
